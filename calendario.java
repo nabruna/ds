@@ -82,14 +82,13 @@ public class Calendario {
         return nomeMes;
     }
     public static void main(String[] arg) {
-        int mes;
-        mes = 0;
+        int mes = 0;
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o mês: ");
         mes = input.nextInt();
 
-        System.out.println("Mes (if) = " + mostrarMesIf(mes));
-        System.out.println("Mes (switch) = " + mostrarMesSwitch(mes));
+        System.out.println("Mês (if): " + mostrarMesIf(mes));
+        System.out.println("Mês (switch): " + mostrarMesSwitch(mes));
 
         input.close();
     }
