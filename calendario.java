@@ -91,7 +91,5 @@ public class Calendario {
         System.out.println("Mês (switch): " + mostrarMesSwitch(mes));
 
         input.close();
-    }
-
-   
+    }   
 }
