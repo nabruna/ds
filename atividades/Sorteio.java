@@ -1,7 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Sorteio2 {
+// Faça um jogo de loteria!
+
+public class Sorteio {
     public static int geradorSorteio(int num) {
         Random gerador = new Random();
         int i = 1;
